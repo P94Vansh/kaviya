@@ -9,7 +9,7 @@ const page = () => {
           <div class="flex justify-center  gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
              <div class="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
               <div class="flex items-center">
-                  <img src="/news1.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
+                  <img src="/news4.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
               </div>
               <div class="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-red-50">
                   <span class="text-red-900 font-medium mb-3 block">Aug 31 2024</span>
@@ -44,7 +44,7 @@ const page = () => {
           <div class="flex justify-center  gap-y-8 lg:gap-y-0 my-5 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
              <div class="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
               <div class="flex items-center">
-                  <img src="/news1.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
+                  <img src="/news4.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
               </div>
               <div class="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-red-50">
                   <span class="text-red-900 font-medium mb-3 block">Aug 31 2024</span>
@@ -79,7 +79,7 @@ const page = () => {
           <div class="flex justify-center  gap-y-8 lg:gap-y-0 my-5 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
              <div class="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
               <div class="flex items-center">
-                  <img src="/news1.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
+                  <img src="/news4.jfif" alt="blogs tailwind section" class="rounded-t-2xl w-full"/>
               </div>
               <div class="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-red-50">
                   <span class="text-red-900 font-medium mb-3 block">Aug 31 2024</span>
