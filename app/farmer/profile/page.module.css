@@ -1,0 +1,175 @@
+
+  
+
+#main {
+  background-color: #f0f0f9;
+  width: min(100%, 400px);
+  margin: 0 auto; 
+  /* transform: rotate(45deg); */
+}
+
+
+/* --------- Profile card --------- */
+
+.profile-card{
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 330px;
+  width: 98%;
+  width: min(100%, 400px);
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  background-image: url("/pics/banner_.png");
+  
+  position: relative;
+}
+
+.banner{
+  --h: 40px;
+  position: absolute;
+  top: calc(-1 * var(--h));
+  width: 45%;
+  /* transform: translateY(-100%); */
+  height: var(--h);
+  background-color: #8f3315;
+}
+
+.banner-shape{
+  /* --h: 40px;
+  --w : 40px; */
+  /* background-color: #8f3315 ; */
+  /* height: var(--h);
+  width: var(--w); */
+  /* border: 30px solid rgba(0,0,0,0.5); */
+  border: 30px solid transparent  ;
+  border-top-color: #8f3315;
+  position: absolute;
+  right: -58px;
+  transform-origin: 0% 0%;
+  transform: rotate(45deg);
+}
+
+.profile-pic{
+  position: absolute;
+} 
+
+.profile-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 20px;
+  border: 3px solid #8f3315;
+}
+
+.profile-add-btn:active{
+  outline-offset: 0;
+
+}
+.profile-add-btn{
+  cursor: pointer;
+  transition: 100ms;
+  font-size: 10px;
+  position: absolute;
+  top: 15px; 
+  right: -20px;
+  height: 15px;
+  width: 15px;
+  background-color: #f0f0f9;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  /* right: 10px; */
+  /* bottom: 30px; */
+  /* transform: scale(2); */
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.details{
+  position: absolute;
+  bottom: 0;
+  /* height: 100px; */
+  background-color: #8f3315;  
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  padding: 10px 0;
+}
+
+.name{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.address,.phone, .email{
+  margin-left: 30px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/*  --------- info cards --------- */
+
+#info-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  padding: 10px;
+}
+
+.info-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 4px #aaa;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+
+.action-buttons {
+  display: flex;
+  column-gap: 10px;
+  /* background-color: red; */
+}
+
+.card-body {
+  font-size: 1rem;
+  padding: 0px 20px 10px 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.list-item {
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.action-btn:active {
+  transform: scale(0.8);
+}
+
+/* FOOTER */

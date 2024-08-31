@@ -24,9 +24,9 @@ export default function Home() {
     <div className="h-1 bg-orange-600"></div>
     <div className="my-9 flex flex-col items-center">
     <div className="text-center text-5xl">Latest News</div>
-    <Card/>
-    <Link href={'/news'}><button className="text-white font-semibold bg-green-600 rounded-lg py-3 px-5">Read More &gt; </button></Link>
-    </div>
+    <Card/><Link href={'/news'}><button className="text-white font-semibold bg-green-600 rounded-lg py-3 px-5">Read More &gt; </button></Link>
+   
+     </div>
     </>
   );
 }
