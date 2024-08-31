@@ -19,7 +19,7 @@ export default function Home() {
     <div className='bg-red-100 flex flex-col items-center gap-5 justify-around '  style={backgroundImageStyle}>
         <div className="font-semibold flex items-center text-2xl text-white">&quot;Connecting &nbsp; <div className="font-extrabold text-4xl"> Farmers </div> &nbsp;  to Develop  &nbsp; <div className="font-extrabold text-4xl"> Bharat&quot;</div></div>
         <div className="font-extrabold text-7xl text-white">Kaviya FarmNet</div>
-        <button className="text-white font-semibold bg-green-600 rounded-lg py-3 px-5">Let&apos;s Connect&gt;</button>
+        <Link href={"/tenant"}> <button className="text-white font-semibold bg-green-600 rounded-lg py-3 px-5">Let&apos;s Connect&gt;</button></Link>
     </div>
     <div className="h-1 bg-orange-600"></div>
     <div className="my-9 flex flex-col items-center">

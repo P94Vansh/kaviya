@@ -27,7 +27,7 @@ const Page = () => {
 
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>Farm services Act, 2020</div>
-                        <Image src={"/maze.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -41,7 +41,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>Farming Agreement Final Act</div>
-                        <Image src={"/packet.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -55,7 +55,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>Dispute Resolution Rules Gazette notification -Hindi & English</div>
-                        <Image src={"/tractor.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -69,7 +69,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div> Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</div>
-                        <Image src={"/cow.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -83,7 +83,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div> Pradhan Mantri Fasal Bima Yojana (PMFBY)</div>
-                        <Image src={"/bull.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -97,7 +97,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>Kisan Credit Card (KCC) Scheme</div>
-                        <Image src={"/sun.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -111,7 +111,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>National Agriculture Market (e-NAM)</div>
-                        <Image src={"/food.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>
@@ -125,7 +125,7 @@ const Page = () => {
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-red-200 rounded-lg  dark:border-black shadow-xl">
                     <div className='flex justify-between'> <div>Soil Health Card Scheme</div>
-                        <Image src={"/kisaan.jfif"} width={50} height={50} /> </div>
+                        <Image src={"/wheat.png"} width={50} height={50} /> </div>
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-red-900 dark:text-white">Need a help in Claim?</h5>
                     </a>

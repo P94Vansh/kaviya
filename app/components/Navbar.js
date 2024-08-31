@@ -12,13 +12,13 @@ const Navbar = () => {
         <ul className='flex gap-4 cursor-pointer'>
             <Link href={'/news'}><li className=' text-white hover:font-bold text-lg'>News</li></Link>
             <Link href={'/schemes'}><li className='text-white hover:font-bold text-lg'>Schemes</li></Link>
-            <li className='text-white hover:font-bold text-lg'>MSP</li>
+            <Link href={'/msp'}> <li className='text-white hover:font-bold text-lg'>MSP</li></Link>
             <li className='text-white hover:font-bold text-lg'>Crop-Recommendation</li>
             <li className='text-white hover:font-bold text-lg'>Contact Us</li>
             <li className='text-white hover:font-bold text-lg'>About Us</li>
         </ul>
         <div className='flex gap-5'>
-        <button className='bg-gray-100 px-3 py-1 text-lg rounded-3xl'>Login</button>
+        <Link href={"/farmer/profile"}> <button className='bg-gray-100 px-3 py-1 text-lg rounded-3xl'>Login</button></Link> 
         <button className='bg-gray-100 px-3 py-1 text-lg rounded-3xl'>SignUp</button>
         </div>
     </nav>
